@@ -1,5 +1,6 @@
 import React from 'react';
 import { AiOutlinePlus } from 'react-icons/ai'
+
 const AddTask = () => {
     return (
         <div>
@@ -8,4 +9,4 @@ const AddTask = () => {
     )
 }
 
-export default AddTask;
+export default AddTask
