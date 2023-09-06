@@ -6,7 +6,7 @@ import { getAllTodos } from '../api'
 
 export default async function Home() {
   const tasks = await getAllTodos();
-  console.log(tasks)
+  //console.log(tasks)
 
   return (
     <main className="flex min-h-screen flex-col  justify-between p-24 max-w-4xl mx-auto">
