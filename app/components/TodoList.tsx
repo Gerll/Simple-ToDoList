@@ -1,5 +1,7 @@
+"use client";
+
 import React from "react";
-import { ITask } from "../../types/task";
+import { ITask } from "@/types/task";
 import AddTask from "./AddTask";
 import Task from "./Task";
 
@@ -20,7 +22,7 @@ const TodoList: React.FC<TodoListProps> = ({ tasks }) => {
                 </thead>
                 <tbody>
                 {/* row 1 */}
-                    {tasks.map(task => <Task key={task.id} task={task}/>)}
+                    {tasks.map((task) => (<Task key={task.id} task={task}/>))}
                 </tbody>
             </table>
         </div>
